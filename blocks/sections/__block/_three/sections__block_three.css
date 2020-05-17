@@ -1,0 +1,5 @@
+.sections__block_three {
+    background-image: url('../../../../images/sec3/sec3-slide1.png');
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}

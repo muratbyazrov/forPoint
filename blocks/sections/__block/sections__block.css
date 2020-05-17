@@ -1,0 +1,17 @@
+@import './_one/sections__block_one.css';
+@import './_two/sections__block_two.css';
+@import './_three/sections__block_three.css';
+@import './_four/sections__block_four.css';
+@import './_five/sections__block_five.css';
+@import './_horizont/sections__block_horizont.css';
+
+.sections__block {
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    position: relative;
+}

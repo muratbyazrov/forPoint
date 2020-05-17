@@ -1,0 +1,15 @@
+@import './__dots/navigation__dots.css';
+@import './__dots/_active/navigation__dots_active.css';
+
+
+.navigation {
+    position: absolute;
+    top: 45%;
+    right: 2.5%;
+    width: 15px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

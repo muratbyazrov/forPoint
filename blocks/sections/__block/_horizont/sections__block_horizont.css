@@ -1,0 +1,7 @@
+.sections__block_horizont {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}

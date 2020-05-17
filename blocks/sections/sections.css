@@ -1,0 +1,10 @@
+@import './__block/sections__block.css';
+@import './__title/section__title.css';
+
+.sections {
+    width: 100%;
+    height: 768px;
+    overflow: auto;
+    position: relative;
+    scroll-snap-type: y mandatory;
+}

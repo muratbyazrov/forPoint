@@ -1,0 +1,80 @@
+@import '../vendor/normalize.css';
+@import '../blocks/sections/sections.css';
+@import '../blocks/puls-dot/puls-dot.css';
+@import '../blocks/next/next.css';
+@import '../blocks/navigation/navigation.css';
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    scroll-snap-type: both mandatory;
+}
+
+@font-face {
+    font-family: "GothamPro"; 
+    src: url("../fonts/GothamPro/GothamPro-Light.woff2") format("truetype"); 
+    font-style: normal; 
+    font-weight: 100; 
+}
+
+
+.slider {
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-appearance: none;
+    width: 645px;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    overflow: hidden;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 60px;
+    background-image: url('../images/elements/ice.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(30deg);
+    transform: translate(-0px, -5px);
+    cursor: pointer;
+}
+
+.sections__block_slide {
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.sections__subtitle {
+    font-size: 30px;
+    font-family: "GothamPro";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 11%;
+}
+
+.section__subtitle_mod {
+    font-size: 50px;
+    font-family: "GothamPro";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: absolute;
+    top: 27%;
+    left: 16%;
+    width: 66%;
+    text-align: center;
+}
+
+.display-none {
+    display: none;
+}

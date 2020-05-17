@@ -1,0 +1,22 @@
+@import './_one/puls-dot_one.css';
+@import './_two/puls-dot_two.css';
+@import './_three/puls-dot_three.css';
+@import './_four/puls-dot_four.css';
+
+@keyframes radial-pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgba(238, 176, 5, 0.5);
+    }
+   
+    100% {
+      box-shadow: 0 0 0 15px rgba(238, 176, 5, 0.5);
+    }
+  }
+
+.puls-dot {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #e09148;
+    background-color: #e09148;
+    animation: radial-pulse 1s infinite;
+  }
