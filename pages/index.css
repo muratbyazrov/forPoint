@@ -1,7 +1,6 @@
 @import '../vendor/normalize.css';
 @import '../blocks/sections/sections.css';
 @import '../blocks/puls-dot/puls-dot.css';
-@import '../blocks/next/next.css';
 @import '../blocks/navigation/navigation.css';
 
 .body{
