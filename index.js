@@ -4,7 +4,6 @@ const section = document.querySelector('.sections');
 const slider =  document.getElementById("myRange");
 const input =  document.getElementById("myRange");
 const horSlider = document.querySelector('.sections__block_horizont');
-const next = document.querySelector('.sections__next')
 navigation.firstElementChild.classList.add('navigation__dots_active');
 
 function activeNavigation(event) {
