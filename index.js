@@ -42,12 +42,7 @@ slider.oninput = function() {
     scrollSlide = value;
 }
 
-function removeNext(event) {
-   console.log(section.getBoundingClientRect().top)
-}
-
 section.addEventListener('scroll', activeNavigation);
-section.addEventListener('scroll', removeNext);
 document.addEventListener('click', oninput)
 
 
